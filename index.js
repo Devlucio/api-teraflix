@@ -1,5 +1,3 @@
-const message = console.log("Olá Mundo!");
-
-console.log("segredo");
+console.log("Olá Mundo!!!");
 
 module.exports = message;

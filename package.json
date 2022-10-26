@@ -1,24 +1,26 @@
 {
   "name": "api-teraflix",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Minha primeira API en node.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node server.js",
+    "dev": ""
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Devlucio/api-teraflix.git"
   },
   "keywords": [],
-  "author": "Lucio Cecilio",
+  "author": "Lúcio Cecílio",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Devlucio/api-teraflix/issues"
   },
   "homepage": "https://github.com/Devlucio/api-teraflix#readme",
   "dependencies": {
-    "express": "^4.18.1"
+    "express": "^4.18.2",
+    "nodemon": "^2.0.20"
   }
 }

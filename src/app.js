@@ -1,14 +1,7 @@
+// MODULE E REQUIRE
 const express = require("express");
+
+// instanciar o pacote
 const app = express();
 
-const cors = require("cors");
-app.use(cors());
-
-app.use(express.json());
-
-const movieRoutes = require("./routes/moviesRoutes")
-// Definir a rota principal do meu
-app.use("/movies", movieRoutes);
-
 module.exports = app;
-
