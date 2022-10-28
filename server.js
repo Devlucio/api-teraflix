@@ -7,5 +7,5 @@ console.log("EXPRESS INSTANCIADO EXPORTADO DO ARQUIVO APP.JS", app);
     //Estruturar o básico do projeto para construir a API
 
 app.listen(PORT, () => {
-    console.log(`Servidor rodando na porta ${PORT}`)
+    console.log(`Ola! Servidor rodando na porta ${PORT}!!`)
 })    
